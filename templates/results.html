@@ -1,0 +1,7 @@
+<h1>Based on the marks, You have {{ exp['res'] }}</h1>
+
+{% if exp['score'] >= 50 %}
+    <h1>You have passed with marks {{ exp['score'] }}</h1>
+{% else %}
+    <h2>You have failed with marks {{ exp['score'] }}</h2>
+{% endif %}
